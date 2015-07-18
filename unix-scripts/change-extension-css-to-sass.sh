@@ -1,0 +1,1 @@
+for file in *.css ; do mv $file `echo $file | sed 's/\(.*\.\)css/\1scss/'` ; done
